@@ -1,5 +1,6 @@
-# terraform-samples
-A collection of minimalist terraform samples
+# Terraform samples
 
-- Provider *hashicorp/dns*
-- Provider *dmachard/powerdns-gslb*
+A collection of [Terraform](https://www.terraform.io/) samples
+
+- Provider [hashicorp/dns](/dns/main.tf)
+- Provider [dmachard/powerdns-gslb](/powerdns-glsb/main.tf)
