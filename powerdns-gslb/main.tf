@@ -24,6 +24,16 @@ resource "powerdns-gslb_lua" "svc1" {
   }
 }
 
+resource "powerdns-gslb_lua" "svc2" {
+  zone = "test.internal."
+  name = "pdnslua"
+  record {
+    rrtype = "A"
+    ttl = 5
+    snippet = "ifurlup('https://httpbin.org/status/200', {{'54.91.118.50'}})"
+  }
+}
+
 resource "powerdns-gslb_pickrandom" "foo" {
   zone = "home.internal."
   name = "test_pickrandom"
