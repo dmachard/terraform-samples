@@ -6,4 +6,4 @@ A collection of [Terraform](https://www.terraform.io/) samples
 - Provider [dmachard/powerdns-gslb](/powerdns-glsb/main.tf)
 - Provider [mastercard/restapi](/restapi/main.tf)
 - Provider [hashicorp/http](/http/main.tf)
-- Provider [Telmate/proxmox](/proxmox/main.tf)
+- Provider [telmate/proxmox](/proxmox/main.tf)
