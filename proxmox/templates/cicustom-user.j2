@@ -1,0 +1,11 @@
+#cloud-config
+manage_etc_hosts: true
+user: ${user}
+ssh_authorized_keys:
+  - ${ssh_key}
+chpasswd:
+  expire: False
+users:
+  - default
+packages:
+  - python3
